@@ -1,11 +1,6 @@
-# summernote-nodejs
+# summernote-nodejs [![npm version](https://img.shields.io/npm/v/summernote-nodejs.svg?style=flat)](https://www.npmjs.com/package/summernote-nodejs)
 
-
-Save images from summernote contents(
-
-[Summernote WYSIWYG Editor]: https://summernote.org	"Summernote Website"
-
-) 
+Save images from summernote contents (https://summernote.org) in nodejs
 
 
 
@@ -57,7 +52,7 @@ $('.editor').summernote('code');
 
 
 
-That's all ☺, Simple no headache!
+That's all ☻, Simple no headache!
 
 
 
