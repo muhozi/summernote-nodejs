@@ -6,11 +6,11 @@ Save images from summernote contents (https://summernote.org) in nodejs
 
 ## Installation
 
-$ npm install summernote-js --save
+$ npm install summernote-nodejs --save
 
 **OR** for yarn:
 
-$ yarn add summernote-js
+$ yarn add summernote-nodejs
 
 
 
