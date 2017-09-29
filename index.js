@@ -36,7 +36,7 @@ function save(htmlText,pathToSaveImg = path.join(path.join(process.cwd(), 'image
             return 'src="'+formattedBaseUrl+pathToSaveImg+'/'+imgFilename+'.'+imgExt+'"';
         }
         if (!append){
-            return 'src="'+formattedBaseUrl'/'+imgFilename+'.'+imgExt+'"';
+            return 'src="'+formattedBaseUrl+imgFilename+'.'+imgExt+'"';
         }
         
     });

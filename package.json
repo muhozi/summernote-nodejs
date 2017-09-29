@@ -1,6 +1,6 @@
 {
   "name": "summernote-nodejs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A nodejs module to save images in Summer note WYSIWYG editor",
   "main": "index.js",
   "scripts": {
