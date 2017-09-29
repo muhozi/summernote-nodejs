@@ -18,14 +18,14 @@ $ yarn add summernote-nodejs
 
 ```javascript
 var save = require('summernote-nodejs');
-var outputHtml = save(htmlContentsFromSummernote,destinationFolder,baseUrl);
+var outputHtml = save(htmlContentsFromSummernote,destinationFolder,baseUrl,append);
 ```
 
 From the above, save method accepts 3 arguments:
 
 
 
-- **htmlContentsFromSummernote**: Required
+- **htmlContentsFromSummernote**: [String] Required
 
   Contents from summernote WYSIWYG editor (Learn more from summernote documentation) 
 
@@ -39,16 +39,22 @@ $('.editor').summernote('code');
 
 
 
-- **destinationFolder**: Optional
+- **destinationFolder**: [String] Optional
 
   This is the folder location where Images will be saved, if not provided images are saved in images folder  by default from where the script file located.
 
   ​
 
 
-- **baseUrl**: Optional
+- **baseUrl**: [String] Optional
 
   base url of the images source (<u>ex</u> http://example.com) if not provided takes './' by default
+
+  ​
+
+- **append** [Boolean] Optional , Default: true . I true it appends destination folder specified to the baseUrl specified
+
+
 
 
 
