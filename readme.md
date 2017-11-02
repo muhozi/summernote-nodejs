@@ -1,4 +1,4 @@
-[![npm version](https://img.shields.io/npm/v/summernote-nodejs.svg?style=flat)](https://www.npmjs.com/package/summernote-nodejs) [![npm](https://img.shields.io/npm/dt/express.svg?style=flat-square)](https://www.npmjs.com/package/summernote-nodejs)
+[![npm version](https://img.shields.io/npm/v/summernote-nodejs.svg?style=flat-square)](https://www.npmjs.com/package/summernote-nodejs) [![npm](https://img.shields.io/npm/dt/summernote-nodejs.svg?style=flat-square)](https://www.npmjs.com/package/summernote-nodejs)
 # summernote-nodejs
 
 Save images from summernote contents (https://summernote.org) in nodejs
